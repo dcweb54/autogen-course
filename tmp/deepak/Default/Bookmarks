@@ -1,0 +1,58 @@
+{
+   "checksum": "a804a4709cbcad3f6698daedab6cf18d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13402513743023805",
+            "date_last_used": "0",
+            "guid": "aafcb96a-43d9-4dff-af24-2494c5aec08a",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "5.7 million+ Stunning Free Images to Use Anywhere - Pixabay",
+            "type": "url",
+            "url": "https://pixabay.com/"
+         } ],
+         "date_added": "13402513726605469",
+         "date_last_used": "0",
+         "date_modified": "13402513748427406",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13402513738201697",
+            "date_last_used": "0",
+            "guid": "af8950c9-16be-41e5-a93d-c8d5a168d939",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New Tab",
+            "type": "url",
+            "url": "chrome://newtab/"
+         } ],
+         "date_added": "13402513726605469",
+         "date_last_used": "0",
+         "date_modified": "13402513743023805",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13402513726605469",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "TPU v5e-1",
+        "score": 1,
+        "reason": "Strong performance per dollar, optimized for inference, solid training support.",
+        "isAvailable": true
+    },
+    {
+        "name": "T4 GPU",
+        "score": 2,
+        "reason": "Older GPU, still useful for smaller workloads, slower than modern alternatives.",
+        "isAvailable": true
+    },
+    {
+        "name": "CPU",
+        "score": 3,
+        "reason": "Flexible and always available, but far too slow for large ML workloads.",
+        "isAvailable": true
+    }
+]
