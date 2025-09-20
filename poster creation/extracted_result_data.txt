@@ -1,0 +1,98 @@
+--- Data from 'kataxcollection' update ---
+Tax Payment Details
+Vehicle No.
+Get Details
+Chassis No.
+Owner Name
+Mobile No.
+From State
+---Select State---
+ANDAMAN & NICOBAR
+ANDHRA PRADESH
+ARUNACHAL PRADESH
+ASSAM
+BIHAR
+CHANDIGARH
+CHHATTISGARH
+DELHI
+GOA
+GUJARAT
+HARYANA
+HIMACHAL PRADESH
+JAMMU & KASHMIR
+JHARKHAND
+KERALA
+LAKSHADWEEP
+MADHYA PRADESH
+MAHARASHTRA
+MANIPUR
+MEGHALAYA
+MIZORAM
+NAGALAND
+ODISHA
+PONDICHERRY
+PUNJAB
+RAJASTHAN
+SIKKIM
+TAMIL NADU
+TELANGANA
+TRIPURA
+UT of DNH and DD
+UTTAR PRADESH
+UTTRAKHAND
+WEST BENGAL
+From District
+---Select From District---
+Registration Date
+Service Type
+---Select Service Type---
+NOT APPLICABILE
+Vehicle Type
+---Select Vehicle Type---
+CONTRACT CARRIAGE/PASSENGER VEHICLES
+GOODS VEHICLE
+CONSTRUCTION EQUIPMENT VEHICLE
+Vehicle Class
+---Select Vehicle Class---
+LIGHT GOODS VEHICLE
+MEDIUM GOODS VEHICLE
+HEAVY GOODS VEHICLE
+MOBILE CANTEEN
+LIBRARY VAN
+MOBILE WORKSHOP
+MOBILE CLINIC
+X-RAY VAN
+CASH VAN
+ARTICULATED VEHICLE
+MULTI-AXLED GOODS
+Permit Type
+---Select Permit Type---
+TEMPORARY PERMIT
+NATIONAL PERMIT
+Permit N
+--- End of 'kataxcollection' data ---
+
+--- Data from 'ConfirmationDialog' update ---
+Confirmation Message...
+Registration No
+:
+MH12TV2539
+Owner Name
+:
+SANJAY SEVAK GAIKWAD
+Chassis Number
+:
+MA1ZU2TNKM1KXXXXX
+Tax From Date
+:
+Tax To Date
+:
+Amount
+:
+/-
+Payment Mode
+:
+ONLINE
+Confirm
+Cancel
+--- End of 'ConfirmationDialog' data ---

@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/theme.css?ln=primefaces-checkposttheme&amp;v=13.0.1&amp;e=null" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/primeicons/primeicons.css?ln=primefaces&amp;v=13.0.1&amp;e=null" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/layout.css?ln=css" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/font-awesome.min.css?ln=css" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/css/bootstrap-grid.min.css?ln=bootstrap" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/components.css?ln=primefaces&amp;v=13.0.1&amp;e=null" /><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/core.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/components.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';PrimeFaces.settings.viewId='/public/payment/TaxCollectionMainOnline.xhtml';PrimeFaces.settings.contextPath='/checkpost';PrimeFaces.settings.cookiesSecure=false;PrimeFaces.settings.projectStage='Development';}</script>
+        <title>Checkpost ~1~84</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="/checkpost/faces/javax.faces.resource/images/vahan-icon.png" sizes="16x16" /><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/js/bootstrap.min.js?ln=bootstrap"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/commonvalidation.js?ln=js"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/login.js?ln=js"></script>
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function () {
+                noBack();
+            });
+            function noBack() {
+                window.history.forward();
+            }
+            function changeHashOnLoad() {
+                window.location.href += "#";
+                setTimeout("changeHashAgain()", "50");
+            }
+
+            function changeHashAgain() {
+                window.location.href += "1";
+            }
+
+            var storedHash = window.location.hash;
+            window.setInterval(function () {
+                if (window.location.hash != storedHash) {
+                    window.location.hash = storedHash;
+                }
+            }, 50);
+        </script></head><body id="masterlaoyoutbody" onload="changeHashOnLoad();">
+<form id="master_Layout_form" name="master_Layout_form" method="post" action="/checkpost/faces/public/payment/TaxCollectionMainOnline.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="master_Layout_form" value="master_Layout_form" />
+ 
+            <div class="container-fluid topbar-menu">
+                <div class="mar-bot">
+                    <div>
+                        <div class="row">
+                            <div class="col-md-6 left-position">
+                                <div class="marquee marquee-top mar-common-f">
+                                    <div>
+                                        <span>Please pay tax in advance to avoid any last minute hassle.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 right-position top-pad-top">
+                                <ul class="top-menu ">
+                                    <li>
+                                        <a href="https://checkpost.parivahan.gov.in/checkpost/" title="Home">
+                                            <span class="glyphicon glyphicon-home"></span> Home 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#skip-main-content" title="skip-main-content">
+                                            <span class="glyphicon glyphicon-arrow-down"></span> Skip main content
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#navbar" title="Skip to navigation">
+                                            <span class="glyphicon glyphicon-arrow-down"></span> Skip navigation
+                                        </a>
+                                    </li>
+                                    <li><a href="#" title="A+">A<sup>+</sup></a></li>
+                                    <li><a href="#" title="A">A</a></li>
+                                    <li><a href="#" title="A-">A<sup>-</sup></a></li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<div class="navigation-background hide-header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9 col-8 mt-1 mb-1 ">
+                            <a><img id="j_idt12" src="/checkpost/faces/javax.faces.resource/checkpost-logo.png?ln=images" class="img-fluid" alt="Check Post Logo" />
+                            </a>
+                        </div>
+                    
+                        <div class="col-md-2 col-2 mt-1 mb-1 text-end">
+                            <a><img id="j_idt14" src="/checkpost/faces/javax.faces.resource/e-vahan-logo.png?ln=images" class="img-fluid" alt="e-Vahan Logo" />
+                            </a>
+                        </div>
+                    </div>
+    </div>
+           
+  </div>
+            <nav class="navbar navbar-expand-lg navigation-background-nav ">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa fa-bars mt-1" aria-hidden="true"></i></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+               <li class="nav-item"><a href="/checkpost/faces/login.xhtml" class="nav-link active"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                        </li>
+    
+  
+          
+                       <li class="nav-item dropdown">
+                           
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" rendered=""><i class="fa fa-user" aria-hidden="true"></i> Border Tax Payment<span class="caret"></span></a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="/checkpost/faces/public/payment/TaxCollection.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Tax Payment</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/payment/ChecklTransactionStatus.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Check Pending Transaction</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/payment/ReverifyTransaction.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Reverify Failed Transaction </a>
+                                </li>
+                            </ul>
+                        </li>
+          
+                          <li class="nav-item dropdown">
+                           
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" rendered=""><i class="fa fa-print" aria-hidden="true"></i> Reports<span class="caret"></span></a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              
+                                      <li><a href="/checkpost/faces/public/reports/PaymentReceipt.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Print Payment Receipt</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/reports/PermitReceiptPrinting.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Print Permit Receipt</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/reports/CheckReceiptDetails.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Check Receipt Details</a>
+                                </li>
+                            </ul>
+                        </li>
+          
+          
+          
+     
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+            <div class="main_news_w">
+                <div class="news_w">
+                    <div data-direction="left" class="marquee-with-options">
+                        <marquee scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();" direction="left" behavior="alternate">
+                            Verify the validity of the receipt by sending sms <font color="#ff83dc">VAHAN &lt;STATE CODE&gt; CP &lt;VEHICLE NO&gt; </font> to 7738299899 (e.g. <font color="#ff83dc">VAHAN XX CP XXXXXXXXXX</font>)
+                        </marquee>
+                    </div>
+                </div>
+            </div> 
+            <div>
+        <div class="container-fluid">
+            <div class="ui-grid ui-grid-responsive">
+                <div class="ui-grid-row top-space center-position contents-Space">
+                    <h1 class="header-main"><label id="j_idt38" class="ui-outputlabel ui-widget header-main" style="color: #154281!important;font-weight: bold!important;"></label><span class="red"> </span></h1>
+                </div>
+                <div class="ui-grid-row">
+                    <div class="ui-grid-col-12 center-position contents-Space">
+                    </div>
+                </div>
+                <div class="ui-grid-row top-space">
+                    <div class="ui-grid-col-1 resp-blank-height"></div>
+                    <div class="ui-grid-col-10">
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div><div id="j_idt45" class="ui-blockui-content ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"><img id="j_idt46" src="/checkpost/faces/javax.faces.resource/ajax_loader_blue.gif?ln=images" alt="" /></div><script id="j_idt45_s" type="text/javascript">$(function(){PrimeFaces.cw("BlockUI","masterLayoutVar",{id:"j_idt45",block:"masterlaoyoutbody"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="6456074871051153398:-3532433032460839034" autocomplete="off" />
+</form></body>
+</html>
