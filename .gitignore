@@ -11,3 +11,4 @@ wheels/
 .ruff_cache
 moviepy-learning-material-output/
 moviepy-learning-material/
+tmp/
