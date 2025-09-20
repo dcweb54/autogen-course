@@ -1,6 +1,0 @@
-2025/09/17-14:52:44.377 ee4 Creating DB C:\Users\admin\projects\python-project\autogen-course\tmp\deepak\Default\IndexedDB\https_medium.com_0.indexeddb.leveldb since it was missing.
-2025/09/17-14:52:44.385 ee4 Reusing MANIFEST C:\Users\admin\projects\python-project\autogen-course\tmp\deepak\Default\IndexedDB\https_medium.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/09/17-14:53:06.931 6c0 Level-0 table #5: started
-2025/09/17-14:53:06.939 6c0 Level-0 table #5: 23688 bytes OK
-2025/09/17-14:53:06.943 6c0 Delete type=0 #3
-2025/09/17-14:53:06.945 6c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
