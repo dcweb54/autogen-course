@@ -1,0 +1,213 @@
+from __future__ import annotations
+from autogen_agentchat.agents import AssistantAgent
+import copy
+from autogen_agentchat.ui import Console
+from autogen_ext.models.openai import OpenAIChatCompletionClient
+import asyncio
+import json
+from pathlib import Path
+from typing import Any
+from typing import List
+from pydantic import BaseModel
+
+
+class RankedImage(BaseModel):
+    url: str
+    score: float
+
+
+class ImageSuggestion(BaseModel):
+    image_keyword: str
+    ranked_images: List[RankedImage]
+
+
+async def main():
+    # setup model client
+    client = OpenAIChatCompletionClient(
+        model="gemma-3-1b-it-GGUF",
+        base_url="http://localhost:8080/v1",
+        api_key="placeholder",
+        response_format=ImageSuggestion,
+        model_info={
+            "vision": False,
+            "function_calling": True,
+            "json_output": True,
+            "family": "",
+            "structured_output": True,
+        },
+    )
+    # call the assistant agent
+    image_ranker = AssistantAgent(
+        name="image_raker",
+        model_client=client,
+        model_client_stream=True,
+        reflect_on_tool_use=True,
+        system_message=(
+            "You are an image relevance ranking agent.\n"
+            "Your job is to analyze a keyword and a list of image metadata, "
+            "and return the best-matching images.\n\n"
+            "Rules:\n"
+            "1. Ignore AI-generated, non-human, and irrelevant images unless the keyword explicitly asks.\n"
+            "2. Focus on subject (man, woman, object), expression (sad, doubt, happy), and framing (close-up, portrait).\n"
+            "3. Rank the images and ONLY return the TOP 3 matches — no more, no less.\n"
+            "4. Assign each selected image a score (1.0–10.0).\n"
+            "5. Output must be strictly JSON in this format:\n"
+            "{\n"
+            '  "image_suggestion": "<repeat the keyword>",\n'
+            '  "ranked_images": [\n'
+            '    {"url": "<url>", "score": <float>},\n'
+            '    {"url": "<url>", "score": <float>},\n'
+            '    {"url": "<url>", "score": <float>}\n'
+            "  ]\n"
+            "}\n"
+        ),
+    )
+    # this is a input as keyword
+    keyword = "close-up of Alex's face showing doubt"
+
+    # sample image metadata as input
+    images = [
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2015/08/31/10/07/man-915230_1280.jpg",
+            "name": "Free Man Sad photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2022/01/18/15/40/vietnam-6947342_1280.jpg",
+            "name": "Free Vietnam Asian Woman photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2015/09/05/08/06/flashlight-924099_1280.jpg",
+            "name": "Free Flashlight Dark photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2017/08/28/11/19/food-2689205_1280.jpg",
+            "name": "Free Food Breakfast photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2019/03/15/18/54/fantasy-4057707_1280.jpg",
+            "name": "Free Fantasy Sad photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2016/03/27/16/22/light-1283000_1280.jpg",
+            "name": "Free Light Woman photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2016/11/22/19/09/abandoned-1850087_1280.jpg",
+            "name": "Free Abandoned Alley photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2016/12/17/22/04/childrens-eyes-1914519_1280.jpg",
+            "name": "Free Children&apos;S Eyes Eyes photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2024/02/05/02/53/cat-8553498_1280.jpg",
+            "name": "Free Cat Woman illustration and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2017/09/01/20/55/girl-2705518_1280.jpg",
+            "name": "Free Girl Black And White photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2019/07/31/01/44/hanamaki-4374136_1280.jpg",
+            "name": "Free Hanamaki Steamed Bun photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2018/05/22/17/48/sad-3422002_1280.jpg",
+            "name": "Free Sad Mood photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2023/09/11/16/37/angel-8247278_1280.jpg",
+            "name": "Free Angel Sorrow photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2015/02/02/18/10/light-621211_1280.png",
+            "name": "Free Light Word illustration and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2021/05/02/10/54/xiao-long-bao-6223162_1280.jpg",
+            "name": "Free Xiao Long Bao Dim Sum photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2021/09/09/12/26/salvador-dali-mask-6610444_1280.jpg",
+            "name": "Free Salvador Dalí Mask Red Jumpsuit photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2017/08/07/17/43/low-light-2606154_1280.jpg",
+            "name": "Free Low Light People photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2021/11/10/18/00/map-6784496_1280.jpg",
+            "name": "Free Map Geography photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2017/08/10/03/47/guy-2617866_1280.jpg",
+            "name": "Free Guy Man photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2018/08/22/13/47/lobby-3623669_1280.jpg",
+            "name": "Free Lobby Lounge photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2015/08/25/05/34/dim-sum-906211_1280.jpg",
+            "name": "Free Dim Sum Hargao photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2012/02/17/15/26/light-14568_1280.jpg",
+            "name": "Free Light Dim photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2020/11/06/15/33/woman-5718089_1280.jpg",
+            "name": "Free Woman Mysterious photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2017/11/19/07/30/girl-2961959_1280.jpg",
+            "name": "Free Girl Sad photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2021/12/29/22/21/dim-sum-6902894_1280.jpg",
+            "name": "Free Dim Sum Steamed Bun photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2020/02/13/15/24/sad-4846019_1280.jpg",
+            "name": "Free Sad Sky photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2024/04/22/17/19/ai-generated-8713139_1280.jpg",
+            "name": "Free Ai Generated Dim Sum illustration and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2017/12/10/17/00/robot-3010309_1280.jpg",
+            "name": "Free Robot Woman photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2020/12/15/14/20/old-woman-5833786_1280.jpg",
+            "name": "Free Old Woman Portrait photo and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2025/05/27/03/35/ai-generated-9624442_1280.png",
+            "name": "Free Ai Generated Crown illustration and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2022/11/04/10/55/woman-7569551_1280.jpg",
+            "name": "Free Woman Cave illustration and picture",
+        },
+        {
+            "contentUrl": "https://cdn.pixabay.com/photo/2023/05/21/03/49/child-8007770_1280.jpg",
+            "name": "Free Child Nature illustration and picture",
+        },
+    ]
+    #  now send prompt
+    input_prompt = f"""
+    Keyword: "{keyword}"
+    Images: {json.dumps(images, indent=2)}
+    """
+
+    print(input_prompt)
+
+    # this will return response
+    response = await Console(image_ranker.run_stream(task=input_prompt))
+
+    print("Response: ", response.messages[-1])
+
+
+asyncio.run(main())
