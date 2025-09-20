@@ -1,3 +1,5 @@
-2025/09/19-11:00:32.029 1e40 Reusing MANIFEST C:\Users\admin\projects\python-project\autogen-course\tmp\deepak\Default\Site Characteristics Database/MANIFEST-000001
-2025/09/19-11:00:32.030 1e40 Recovering log #3
-2025/09/19-11:00:32.031 1e40 Reusing old log C:\Users\admin\projects\python-project\autogen-course\tmp\deepak\Default\Site Characteristics Database/000003.log 
+2025/09/21-01:35:21.154 3014 Log #3: 214 ops saved to Table #4 OK
+2025/09/21-01:35:21.158 3014 Archiving C:\Users\admin\projects\python-projects\autogen-course\tmp\deepak\Default\Site Characteristics Database/000003.log: OK
+2025/09/21-01:35:21.158 3014 Table #4: 214 entries OK
+2025/09/21-01:35:21.161 3014 Archiving C:\Users\admin\projects\python-projects\autogen-course\tmp\deepak\Default\Site Characteristics Database/MANIFEST-000001: OK
+2025/09/21-01:35:21.168 3014 **** Repaired leveldb C:\Users\admin\projects\python-projects\autogen-course\tmp\deepak\Default\Site Characteristics Database; recovered 1 files; 3501 bytes. Some data may have been lost. ****
