@@ -19,7 +19,7 @@ async def run(playwright: Playwright):
     )
     
     
-    
+    await asyncio.sleep(20000)
     colab_page = ColabPage(page)
     await asyncio.sleep(3)
     url = await colab_page.handle_page_v2()

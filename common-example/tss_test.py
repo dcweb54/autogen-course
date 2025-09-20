@@ -23,6 +23,7 @@ result = client.predict(
                 cfgw_input=0.5,
                 api_name="/generate_tts_audio"
 )
+
 print(result)
 
 
