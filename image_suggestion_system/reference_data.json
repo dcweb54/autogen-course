@@ -1,0 +1,105 @@
+[
+  {
+    "sentence": "Alex had always dreamed of reaching the top of Eagle's Peak, a mountain so tall many said it can't be climbed without years of training.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "dream",
+      "reach",
+      "say",
+      "climb"
+    ],
+    "nouns": [
+      "top",
+      "mountain",
+      "year",
+      "training"
+    ]
+  },
+  {
+    "sentence": "But Alex wasn't an expert.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [],
+    "nouns": [
+      "expert"
+    ]
+  },
+  {
+    "sentence": "Just a person with a dream and a backpack full of hope.",
+    "characters": [],
+    "locations": [],
+    "actions": [],
+    "nouns": [
+      "person",
+      "dream",
+      "backpack",
+      "hope"
+    ]
+  },
+  {
+    "sentence": "The first steps were easy.",
+    "characters": [],
+    "locations": [],
+    "actions": [],
+    "nouns": [
+      "step"
+    ]
+  },
+  {
+    "sentence": "The path was clear.",
+    "characters": [],
+    "locations": [],
+    "actions": [],
+    "nouns": [
+      "path"
+    ]
+  },
+  {
+    "sentence": "But soon the trail grew steeper.",
+    "characters": [],
+    "locations": [],
+    "actions": [
+      "grow"
+    ],
+    "nouns": [
+      "trail"
+    ]
+  },
+  {
+    "sentence": "Rocks blocked the way.",
+    "characters": [],
+    "locations": [],
+    "actions": [
+      "block"
+    ],
+    "nouns": [
+      "rock",
+      "way"
+    ]
+  },
+  {
+    "sentence": "The wind howled.",
+    "characters": [],
+    "locations": [],
+    "actions": [
+      "howl"
+    ],
+    "nouns": [
+      "wind"
+    ]
+  },
+  {
+    "sentence": "Doubt crept in.",
+    "characters": [],
+    "locations": [],
+    "actions": [
+      "creep"
+    ],
+    "nouns": []
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "language": "en",
+  "language_probability": 0.9995,
+  "duration": 26.1,
+  "text": "Alex had always dreamed of reaching the top of Eagle's Peak, a mountain so tall many said it can't be climbed without years of training. But Alex wasn't an expert. Just a person with a dream and a backpack full of hope. The first steps were easy. The path was clear. But soon the trail grew steeper. Rocks blocked the way. The wind howled. Doubt crept in.",
+  "segments": [
+    {
+      "id": 1,
+      "text": "Alex had always dreamed of reaching the top of Eagle's Peak,",
+      "start": 0.0,
+      "end": 3.74,
+      "duration": 3.74
+    },
+    {
+      "id": 2,
+      "text": "a mountain so tall many said it can't be climbed without years of training.",
+      "start": 3.92,
+      "end": 8.6,
+      "duration": 4.68
+    },
+    {
+      "id": 3,
+      "text": "But Alex wasn't an expert.",
+      "start": 9.16,
+      "end": 10.88,
+      "duration": 1.72
+    },
+    {
+      "id": 4,
+      "text": "Just a person with a dream and a backpack full of hope.",
+      "start": 11.5,
+      "end": 15.02,
+      "duration": 3.52
+    },
+    {
+      "id": 5,
+      "text": "The first steps were easy.",
+      "start": 15.64,
+      "end": 17.22,
+      "duration": 1.58
+    },
+    {
+      "id": 6,
+      "text": "The path was clear.",
+      "start": 17.32,
+      "end": 18.52,
+      "duration": 1.2
+    },
+    {
+      "id": 7,
+      "text": "But soon the trail grew steeper.",
+      "start": 19.1,
+      "end": 21.3,
+      "duration": 2.2
+    },
+    {
+      "id": 8,
+      "text": "Rocks blocked the way.",
+      "start": 21.68,
+      "end": 22.78,
+      "duration": 1.1
+    },
+    {
+      "id": 9,
+      "text": "The wind howled.",
+      "start": 23.08,
+      "end": 24.38,
+      "duration": 1.3
+    },
+    {
+      "id": 10,
+      "text": "Doubt crept in.",
+      "start": 25.06,
+      "end": 26.1,
+      "duration": 1.04
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+    {
+        "sentence": "Alex had always dreamed of reaching the top of Eagle's Peak, a mountain so tall many said it can't be climbed without years of training.",
+        "characters": [
+            "Alex"
+        ],
+        "locations": [],
+        "actions": [
+            "dream",
+            "reach",
+            "say",
+            "climb"
+        ],
+        "nouns": [
+            "top",
+            "mountain",
+            "year",
+            "training"
+        ],
+        "raw": "Alex had always dreamed of reaching the top of Eagle's Peak, a mountain so tall many said it can't be climbed without years of training."
+    },
+    {
+        "sentence": "But Alex wasn't an expert.",
+        "characters": [
+            "Alex"
+        ],
+        "locations": [],
+        "actions": [],
+        "nouns": [
+            "expert"
+        ],
+        "raw": "But Alex wasn't an expert."
+    },
+    {
+        "sentence": "Just a person with a dream and a backpack full of hope.",
+        "characters": [],
+        "locations": [],
+        "actions": [],
+        "nouns": [
+            "person",
+            "dream",
+            "backpack",
+            "hope"
+        ],
+        "raw": "Just a person with a dream and a backpack full of hope."
+    },
+    {
+        "sentence": "The first steps were easy.",
+        "characters": [],
+        "locations": [],
+        "actions": [],
+        "nouns": [
+            "step"
+        ],
+        "raw": "The first steps were easy."
+    },
+    {
+        "sentence": "The path was clear.",
+        "characters": [],
+        "locations": [],
+        "actions": [],
+        "nouns": [
+            "path"
+        ],
+        "raw": "The path was clear."
+    },
+    {
+        "sentence": "But soon the trail grew steeper.",
+        "characters": [],
+        "locations": [],
+        "actions": [
+            "grow"
+        ],
+        "nouns": [
+            "trail"
+        ],
+        "raw": "But soon the trail grew steeper."
+    },
+    {
+        "sentence": "Rocks blocked the way.",
+        "characters": [],
+        "locations": [],
+        "actions": [
+            "block"
+        ],
+        "nouns": [
+            "rock",
+            "way"
+        ],
+        "raw": "Rocks blocked the way."
+    },
+    {
+        "sentence": "The wind howled.",
+        "characters": [],
+        "locations": [],
+        "actions": [
+            "howl"
+        ],
+        "nouns": [
+            "wind"
+        ],
+        "raw": "The wind howled."
+    },
+    {
+        "sentence": "Doubt crept in.",
+        "characters": [],
+        "locations": [],
+        "actions": [
+            "creep"
+        ],
+        "nouns": [],
+        "raw": "Doubt crept in."
+    }
+]

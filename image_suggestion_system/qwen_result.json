@@ -1,0 +1,44 @@
+{
+  "Hook": {
+    "Emotion": "Despair",
+    "Action": "The narrator is laid off and feeling hopeless",
+    "Setting": "An empty apartment",
+    "Prop": "A camera",
+    "Identity": "The narrator",
+    "BrollKeywords": [
+      "Narrator Despair Laid Off",
+      "Narrator Confidence Vanished",
+      "Narrator Camera in Hand",
+      "Narrator Connected to Others",
+      "Narrator Started Filming Moments"
+    ]
+  },
+  "Middle": {
+    "Emotion": "Resilience",
+    "Action": "The narrator starts filming everyday moments",
+    "Setting": "Various locations",
+    "Prop": "Camera",
+    "Identity": "The narrator",
+    "BrollKeywords": [
+      "Narrator Confidence Gained",
+      "Narrator People Connected",
+      "Narrator Shared Stories",
+      "Narrator Filmed Small Moments",
+      "Narrator Started a Business"
+    ]
+  },
+  "End": {
+    "Emotion": "Inspiration",
+    "Action": "The narrator encourages others to start",
+    "Setting": "Various locations",
+    "Prop": "Camera",
+    "Identity": "The narrator",
+    "BrollKeywords": [
+      "Narrator Encourages Others",
+      "Narrator Shared a Story",
+      "Narrator Started a Business",
+      "Narrator Filmed Moments",
+      "Narrator Tagged Someone"
+    ]
+  }
+}

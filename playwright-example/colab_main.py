@@ -2,13 +2,15 @@ from patchright.async_api import async_playwright, Playwright
 import asyncio
 from colab_page import ColabPage
 from gradio_client import Client, handle_file
-
+import os
 
 async def run(playwright: Playwright):
-    
+    current_directory = os.getcwd()
+    parent_directory = os.path.dirname(current_directory)
+    print(f"Parent of current working directory: {parent_directory}")
     chromium = playwright.chromium  # or "firefox" or "webkit".
     browser = await chromium.launch_persistent_context(
-        user_data_dir="tmp/deepak",
+        user_data_dir=os.path.join(parent_directory,'deepak'),
         channel="chrome",
         headless=False,
     )

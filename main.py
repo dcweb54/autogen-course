@@ -42,5 +42,19 @@
 # if __name__ == "__main__":
 #     asyncio.run(main())
 
+import os
 
-print("weoking")
+# Get the parent directory of the current working directory
+current_directory = os.getcwd()
+print(current_directory)
+parent_directory = os.path.dirname(current_directory)
+print(f"Parent of current working directory: {parent_directory}")
+
+# # Get the parent directory of the script's location
+# script_directory = os.path.dirname(os.path.abspath(__file__))
+# script_parent_directory = os.path.dirname(script_directory)
+# print(f"Parent of script's directory: {script_parent_directory}")
+
+# # Change the current working directory to the parent directory
+# os.chdir(parent_directory)
+# print(f"New current working directory: {os.getcwd()}")

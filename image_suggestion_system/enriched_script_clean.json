@@ -1,0 +1,180 @@
+[
+  {
+    "sentence": "Alex had always dreamed of reaching the top of Eagle's Peak, a mountain so tall many said it can't be climbed without years of training.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "dream",
+      "reach",
+      "say",
+      "climb"
+    ],
+    "nouns": [
+      "top",
+      "mountain",
+      "year",
+      "training",
+      "expert"
+    ],
+    "pixabay_query": "Alex dream reach in mountain"
+  },
+  {
+    "sentence": "But Alex wasn't an expert.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "climb",
+      "dream",
+      "reach",
+      "say"
+    ],
+    "nouns": [
+      "expert",
+      "top",
+      "mountain",
+      "training",
+      "year"
+    ],
+    "pixabay_query": "Alex climb dream in mountain"
+  },
+  {
+    "sentence": "Just a person with a dream and a backpack full of hope.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "climb",
+      "dream",
+      "reach",
+      "say"
+    ],
+    "nouns": [
+      "person",
+      "dream",
+      "backpack",
+      "hope",
+      "top",
+      "mountain",
+      "training",
+      "year"
+    ],
+    "pixabay_query": "Alex climb dream in mountain backpack"
+  },
+  {
+    "sentence": "The first steps were easy.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "block",
+      "climb",
+      "reach",
+      "creep",
+      "dream",
+      "grow",
+      "say",
+      "howl"
+    ],
+    "nouns": [
+      "step",
+      "path"
+    ],
+    "pixabay_query": "Alex block climb in path"
+  },
+  {
+    "sentence": "The path was clear.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "block",
+      "climb",
+      "reach",
+      "creep",
+      "dream",
+      "grow",
+      "say",
+      "howl"
+    ],
+    "nouns": [
+      "path",
+      "step"
+    ],
+    "pixabay_query": "Alex block climb in path"
+  },
+  {
+    "sentence": "But soon the trail grew steeper.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "grow",
+      "dream",
+      "climb",
+      "reach",
+      "say"
+    ],
+    "nouns": [
+      "trail",
+      "top",
+      "mountain",
+      "training",
+      "year"
+    ],
+    "pixabay_query": "Alex grow dream in mountain trail"
+  },
+  {
+    "sentence": "Rocks blocked the way.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "block"
+    ],
+    "nouns": [
+      "rock",
+      "way",
+      "path"
+    ],
+    "pixabay_query": "Alex block in path rock"
+  },
+  {
+    "sentence": "The wind howled.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "howl",
+      "grow"
+    ],
+    "nouns": [
+      "wind",
+      "trail"
+    ],
+    "pixabay_query": "Alex howl grow in wind trail"
+  },
+  {
+    "sentence": "Doubt crept in.",
+    "characters": [
+      "Alex"
+    ],
+    "locations": [],
+    "actions": [
+      "creep"
+    ],
+    "nouns": [
+      "path"
+    ],
+    "pixabay_query": "Alex creep in path"
+  }
+]
