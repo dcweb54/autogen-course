@@ -1,0 +1,54 @@
+{
+  "scenes": [
+    {
+      "scene": "Hook (Inner Critic)",
+      "script_line": "Ever notice how the loudest critic in your life lives inside your own head?",
+      "emotions": ["curiosity", "self-criticism", "reflection"],
+      "actions": ["staring at mirror", "sitting alone thinking", "holding head in hands"],
+      "settings": ["bedroom", "bathroom mirror", "quiet apartment"],
+      "objects_props": ["mirror", "journal", "dim light"],
+      "identity_cues": ["young adult", "freelancer", "student"],
+      "footage_search": "young adult sitting alone in apartment, thinking in mirror, moody lighting, self reflection"
+    },
+    {
+      "scene": "Problem (Paralyzed by Doubt)",
+      "script_line": "Self-doubt whispers: You’re not ready. You’re not good enough. What if you fail?",
+      "emotions": ["anxiety", "hesitation", "frustration"],
+      "actions": ["typing then deleting email", "closing laptop", "sighing"],
+      "settings": ["home office", "desk", "workspace"],
+      "objects_props": ["laptop", "smartphone", "coffee mug"],
+      "identity_cues": ["woman of color", "early-career professional", "student"],
+      "footage_search": "stressed woman of color at laptop, deleting email, anxious at desk, home office"
+    },
+    {
+      "scene": "Tip (Mindset Shift)",
+      "script_line": "Instead of asking, Am I good enough? try What can I learn from doing this anyway?",
+      "emotions": ["relief", "empowerment", "clarity"],
+      "actions": ["smiling after thought", "lightbulb realization", "writing in notebook"],
+      "settings": ["coffee shop", "desk with sunlight", "cozy workspace"],
+      "objects_props": ["notebook", "pen", "laptop", "sunlight"],
+      "identity_cues": ["freelancer", "young adult", "entrepreneur"],
+      "footage_search": "freelancer smiling at desk with sunlight, writing in notebook, positive mindset shift"
+    },
+    {
+      "scene": "Example (Maya’s Story)",
+      "script_line": "Maya almost didn’t apply for a promotion. She thought she’d fail. But when she reframed it as a chance to grow, she applied—and got it.",
+      "emotions": ["hesitation", "courage", "joy"],
+      "actions": ["hesitating to click submit", "pressing button", "celebrating with colleagues"],
+      "settings": ["modern office", "laptop screen close-up", "group celebration"],
+      "objects_props": ["laptop", "office desk", "resume", "application form"],
+      "identity_cues": ["professional woman", "businesswoman", "leader"],
+      "footage_search": "businesswoman typing application on laptop, pressing submit button, celebrating promotion with colleagues in office"
+    },
+    {
+      "scene": "CTA (Take Action Now)",
+      "script_line": "Take one step today—send the email, share the idea, make the call. Let progress, not perfection, be your proof.",
+      "emotions": ["motivation", "confidence", "determination"],
+      "actions": ["sending email", "making phone call", "walking confidently"],
+      "settings": ["office hallway", "coworking space", "street with sunlight"],
+      "objects_props": ["laptop", "phone", "bag"],
+      "identity_cues": ["young professional", "man in 20s–30s", "startup founder"],
+      "footage_search": "confident young professional sending email on laptop, making phone call, walking with purpose in office hallway"
+    }
+  ]
+}

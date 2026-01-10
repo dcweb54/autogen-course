@@ -1,0 +1,6 @@
+http:// {
+    bind {{ .ZrokBindAddress }}
+    reverse_proxy 127.0.0.1:11434 {
+        header_up Host localhost:11434
+    }
+}

@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "idx": 1,
+    "text": "Do you ever feel like you're not good enough?",
+    "prompt": "A young man in a hoodie and jeans, looking down with a contemplative expression. The background is minimal, with a subtle symbol of a rising sun or a light bulb."
+  },
+  {
+    "idx": 2,
+    "text": "[pause] That's the voice of self-doubt, and it's a liar.",
+    "prompt": "The same young man, now with his head slightly tilted, eyes closed, and a calm expression. The background is minimal, with a subtle symbol of a rising sun or a light bulb."
+  },
+  {
+    "idx": 3,
+    "text": "Your worth is not defined by your mistakes or failures.",
+    "prompt": "The young man is now standing with his hands on his hips, looking determined. The background is minimal, with a subtle symbol of a rising sun or a light bulb."
+  },
+  {
+    "idx": 4,
+    "text": "It's defined by your courage to try again and again.",
+    "prompt": "The young man is now walking forward with a determined stride. The background is minimal, with a subtle symbol of a rising sun or a light bulb."
+  },
+  {
+    "idx": 5,
+    "text": "[pause] You are capable of greatness, even when you don't feel it.",
+    "prompt": "The young man is now sitting with his legs crossed, looking confident. The background is minimal, with a subtle symbol of a rising sun or a light bulb."
+  },
+  {
+    "idx": 6,
+    "text": "So take a deep breath and silence that voice in your head.",
+    "prompt": "The young man is now standing with his hands on his hips, looking determined. The background is minimal, with a subtle symbol of a rising sun or a light bulb."
+  },
+  {
+    "idx": 7,
+    "text": "Remember who you are and what you're capable of achieving.",
+    "prompt": "The young man is now walking forward with a determined stride. The background is minimal, with a subtle symbol of a rising sun or a light bulb."
+  }
+]
+```

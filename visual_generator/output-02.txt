@@ -1,0 +1,81 @@
+{
+  "timeline": [
+    {
+      "idx": 1,
+      "line": "Do you ever feel like you're not good enough?",
+      "emotions": ["doubt", "self-consciousness", "anxiety"],
+      "actions": ["looking down", "fidgeting", "sighing"],
+      "settings": ["empty room", "isolated alleyway", "dark forest"],
+      "objects/props": ["mirror", "phone with negative messages", " journal with self-doubting entries"],
+      "identity cues": ["young adult", "woman of color", " introverted freelancer"],
+      "clip_query": "person feeling not good enough",
+      "overlay_text": "**Not Enough**"
+    },
+    {
+      "idx": 2,
+      "line": "[pause] That's the voice of self-doubt, and it's a liar.",
+      "emotions": ["shock", "anger", "relief"],
+      "actions": ["looking shocked", "pointing accusingly", "nodding in agreement"],
+      "settings": ["empty room", "isolated alleyway", "city street with tall buildings"],
+      "objects/props": ["phone with negative messages", "journal with self-doubting entries", " sign that says 'You are enough'"],
+      "identity cues": ["young adult", "woman of color", " introverted freelancer"],
+      "clip_query": "self doubt voice lying",
+      "overlay_text": "**The Liar**"
+    },
+    {
+      "idx": 3,
+      "line": "Your worth is not defined by your mistakes or failures.",
+      "emotions": ["hope", "empowerment", "sorrow"],
+      "actions": ["standing confidently", "holding a certificate of achievement", "writing in journal"],
+      "settings": ["office with coworkers", "park at sunset", "home office with plants"],
+      "objects/props": ["certificate of achievement", "journal with positive entries", " photo album with happy memories"],
+      "identity cues": ["young adult", "woman of color", " introverted freelancer"],
+      "clip_query": "worth not defined by mistakes",
+      "overlay_text": "**Not Defined**"
+    },
+    {
+      "idx": 4,
+      "line": "It's defined by your courage to try again and again.",
+      "emotions": ["determination", "hope", "gratitude"],
+      "actions": ["lifting weights", "practicing yoga", "reading a book"],
+      "settings": ["gym", "outdoor yoga class", "cozy library"],
+      "objects/props": ["weightlifting equipment", "yoga mat", "book with inspiring quotes"],
+      "identity cues": ["young adult", "woman of color", " introverted freelancer"],
+      "clip_query": "courage to try again",
+      "overlay_text": "**Try Again**"
+    },
+    {
+      "idx": 5,
+      "line": "[pause] You are capable of greatness, even when you don't feel it.",
+      "emotions": ["surprise", "excitement", "relief"],
+      "actions": ["looking surprised", "smiling widely", "nodding in agreement"],
+      "settings": ["empty room", "isolated alleyway", "city street with tall buildings"],
+      "objects/props": ["phone with inspiring messages", "journal with positive entries", " sign that says 'You are enough'"],
+      "identity cues": ["young adult", "woman of color", " introverted freelancer"],
+      "clip_query": "capable of greatness",
+      "overlay_text": "**Greatness**"
+    },
+    {
+      "idx": 6,
+      "line": "So take a deep breath and silence that voice in your head.",
+      "emotions": ["calmness", "focus", "determination"],
+      "actions": ["deep breathing exercise", "meditating", "focusing on a task"],
+      "settings": ["quiet room", "outdoor nature scene", " peaceful garden"],
+      "objects/props": ["breathing exercise app", " meditation cushion", " focus-enhancing music"],
+      "identity cues": ["young adult", "woman of color", " introverted freelancer"],
+      "clip_query": "silence self doubt voice",
+      "overlay_text": "**Silence**"
+    },
+    {
+      "idx": 7,
+      "line": "Remember who you are and what you're capable of achieving.",
+      "emotions": ["hope", "empowerment", "pride"],
+      "actions": ["smiling confidently", "standing tall", "writing in journal"],
+      "settings": ["office with coworkers", "park at sunset", "home office with plants"],
+      "objects/props": ["certificate of achievement", "journal with positive entries", " photo album with happy memories"],
+      "identity cues": ["young adult", "woman of color", " introverted freelancer"],
+      "clip_query": "remember who you are",
+      "overlay_text": "**Who You Are**"
+    }
+  ]
+}

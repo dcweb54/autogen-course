@@ -1,0 +1,74 @@
+```json
+[
+    {
+        "idx": 1,
+        "line": "Do you ever feel like you're not good enough?",
+        "Emotions": [],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person looking at mirror", "person standing in front of mirror", "person holding a pen"]
+    },
+    {
+        "idx": 2,
+        "line": "[pause] That's the voice of self-doubt, and it's a liar.",
+        "Emotions": [],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person with a worried expression", "person with a frown", "person with a hand on their chin"]
+    },
+    {
+        "idx": 3,
+        "line": "Your worth is not defined by your mistakes or failures.",
+        "Emotions": [],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person holding a pen and paper", "person writing on a piece of paper", "person looking at a notebook"]
+    },
+    {
+        "idx": 4,
+        "line": "It's defined by your courage to try again and again.",
+        "Emotions": [],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person standing in front of a whiteboard", "person holding a marker", "person writing on a whiteboard"]
+    },
+    {
+        "idx": 5,
+        "line": "[pause] You are capable of greatness, even when you don't feel it.",
+        "Emotions": [],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person with a determined expression", "person with a fist clenched", "person looking at a goal"]
+    },
+    {
+        "idx": 6,
+        "line": "So take a deep breath and silence that voice in your head.",
+        "Emotions": [],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person taking a deep breath", "person holding their chest", "person with a hand on their chest"]
+    },
+    {
+        "idx": 7,
+        "line": "Remember who you are and what you're capable of achieving.",
+        "Emotions": [],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person looking at a mirror", "person standing in front of a mirror", "person holding a pen"]
+    }
+]
+```

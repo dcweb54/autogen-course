@@ -1,0 +1,32 @@
+{
+  "lines": [
+    {
+      "idx": 1,
+      "text": "Do you ever feel like you're not good enough?"
+    },
+    {
+      "idx": 2,
+      "text": "[pause] That's the voice of self-doubt, and it's a liar."
+    },
+    {
+      "idx": 3,
+      "text": "Your worth is not defined by your mistakes or failures."
+    },
+    {
+      "idx": 4,
+      "text": "It's defined by your courage to try again and again."
+    },
+    {
+      "idx": 5,
+      "text": "[pause] You are capable of greatness, even when you don't feel it."
+    },
+    {
+      "idx": 6,
+      "text": "So take a deep breath and silence that voice in your head."
+    },
+    {
+      "idx": 7,
+      "text": "Remember who you are and what you're capable of achieving."
+    }
+  ]
+}

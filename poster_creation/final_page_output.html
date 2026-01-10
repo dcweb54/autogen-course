@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/theme.css?ln=primefaces-checkposttheme&amp;v=13.0.1&amp;e=null" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/primeicons/primeicons.css?ln=primefaces&amp;v=13.0.1&amp;e=null" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/layout.css?ln=css" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/font-awesome.min.css?ln=css" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/css/bootstrap-grid.min.css?ln=bootstrap" /><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/components.css?ln=primefaces&amp;v=13.0.1&amp;e=null" /><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/core.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/components.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/inputmask/inputmask.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/calendar/calendar.css?ln=primefaces&amp;v=13.0.1&amp;e=null" /><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/calendar/calendar.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/inputnumber/inputnumber.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><link type="text/css" rel="stylesheet" href="/checkpost/faces/javax.faces.resource/inputnumber/inputnumber.css?ln=primefaces&amp;v=13.0.1&amp;e=null" /><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/touch/touchswipe.js?ln=primefaces&amp;v=13.0.1&amp;e=null"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/jsf.js?ln=javax.faces&amp;stage=Development"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';PrimeFaces.settings.viewId='/public/payment/TaxCollectionMainOnline.xhtml';PrimeFaces.settings.contextPath='/checkpost';PrimeFaces.settings.cookiesSecure=false;PrimeFaces.settings.projectStage='Development';}</script>
+        <title>Checkpost ~1~84</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="/checkpost/faces/javax.faces.resource/images/vahan-icon.png" sizes="16x16" /><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/js/bootstrap.min.js?ln=bootstrap"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/commonvalidation.js?ln=js"></script><script type="text/javascript" src="/checkpost/faces/javax.faces.resource/login.js?ln=js"></script>
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function () {
+                noBack();
+            });
+            function noBack() {
+                window.history.forward();
+            }
+            function changeHashOnLoad() {
+                window.location.href += "#";
+                setTimeout("changeHashAgain()", "50");
+            }
+
+            function changeHashAgain() {
+                window.location.href += "1";
+            }
+
+            var storedHash = window.location.hash;
+            window.setInterval(function () {
+                if (window.location.hash != storedHash) {
+                    window.location.hash = storedHash;
+                }
+            }, 50);
+        </script></head><body id="masterlaoyoutbody" onload="changeHashOnLoad();">
+<form id="master_Layout_form" name="master_Layout_form" method="post" action="/checkpost/faces/public/payment/TaxCollectionMainOnline.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="master_Layout_form" value="master_Layout_form" />
+ 
+            <div class="container-fluid topbar-menu">
+                <div class="mar-bot">
+                    <div>
+                        <div class="row">
+                            <div class="col-md-6 left-position">
+                                <div class="marquee marquee-top mar-common-f">
+                                    <div>
+                                        <span>Please pay tax in advance to avoid any last minute hassle.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 right-position top-pad-top">
+                                <ul class="top-menu ">
+                                    <li>
+                                        <a href="https://checkpost.parivahan.gov.in/checkpost/" title="Home">
+                                            <span class="glyphicon glyphicon-home"></span> Home 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#skip-main-content" title="skip-main-content">
+                                            <span class="glyphicon glyphicon-arrow-down"></span> Skip main content
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#navbar" title="Skip to navigation">
+                                            <span class="glyphicon glyphicon-arrow-down"></span> Skip navigation
+                                        </a>
+                                    </li>
+                                    <li><a href="#" title="A+">A<sup>+</sup></a></li>
+                                    <li><a href="#" title="A">A</a></li>
+                                    <li><a href="#" title="A-">A<sup>-</sup></a></li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<div class="navigation-background hide-header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9 col-8 mt-1 mb-1 ">
+                            <a><img id="j_idt12" src="/checkpost/faces/javax.faces.resource/checkpost-logo.png?ln=images" class="img-fluid" alt="Check Post Logo" />
+                            </a>
+                        </div>
+                    
+                        <div class="col-md-2 col-2 mt-1 mb-1 text-end">
+                            <a><img id="j_idt14" src="/checkpost/faces/javax.faces.resource/e-vahan-logo.png?ln=images" class="img-fluid" alt="e-Vahan Logo" />
+                            </a>
+                        </div>
+                    </div>
+    </div>
+           
+  </div>
+            <nav class="navbar navbar-expand-lg navigation-background-nav ">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa fa-bars mt-1" aria-hidden="true"></i></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+               <li class="nav-item"><a href="/checkpost/faces/login.xhtml" class="nav-link active"><i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                        </li>
+    
+  
+          
+                       <li class="nav-item dropdown">
+                           
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" rendered=""><i class="fa fa-user" aria-hidden="true"></i> Border Tax Payment<span class="caret"></span></a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="/checkpost/faces/public/payment/TaxCollection.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Tax Payment</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/payment/ChecklTransactionStatus.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Check Pending Transaction</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/payment/ReverifyTransaction.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Reverify Failed Transaction </a>
+                                </li>
+                            </ul>
+                        </li>
+          
+                          <li class="nav-item dropdown">
+                           
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" rendered=""><i class="fa fa-print" aria-hidden="true"></i> Reports<span class="caret"></span></a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              
+                                      <li><a href="/checkpost/faces/public/reports/PaymentReceipt.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Print Payment Receipt</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/reports/PermitReceiptPrinting.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Print Permit Receipt</a>
+                                </li>
+                                <li><a href="/checkpost/faces/public/reports/CheckReceiptDetails.xhtml" class="dropdown-item"><span class="glyphicon glyphicon-arrow-right"></span> Check Receipt Details</a>
+                                </li>
+                            </ul>
+                        </li>
+          
+          
+          
+     
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+            <div class="main_news_w">
+                <div class="news_w">
+                    <div data-direction="left" class="marquee-with-options">
+                        <marquee scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();" direction="left" behavior="alternate">
+                            Verify the validity of the receipt by sending sms <font color="#ff83dc">VAHAN &lt;STATE CODE&gt; CP &lt;VEHICLE NO&gt; </font> to 7738299899 (e.g. <font color="#ff83dc">VAHAN XX CP XXXXXXXXXX</font>)
+                        </marquee>
+                    </div>
+                </div>
+            </div> 
+            <div>
+        <div class="container-fluid">
+            <div class="ui-grid ui-grid-responsive">
+                <div class="ui-grid-row top-space center-position contents-Space">
+                    <h1 class="header-main"><label id="j_idt38" class="ui-outputlabel ui-widget header-main" style="color: #154281!important;font-weight: bold!important;"><span class="ui-outputlabel-label">BORDER TAX PAYMENT FOR ENTRY INTO</span></label><span class="red"> KARNATAKA</span></h1>
+                </div>
+                <div class="ui-grid-row">
+                    <div class="ui-grid-col-12 center-position contents-Space">
+                    </div>
+                </div>
+                <div class="ui-grid-row top-space">
+                    <div class="ui-grid-col-1 resp-blank-height"></div>
+                    <div class="ui-grid-col-10"><html xmlns="http://www.w3.org/1999/xhtml"><div id="kataxcollection" class="ui-panel ui-widget ui-widget-content ui-corner-all bottom-space" data-widget="widget_kataxcollection" role="region" aria-labelledby="kataxcollection_header"><div id="kataxcollection_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Tax Payment Details</span></div><div id="kataxcollection_content" class="ui-panel-content ui-widget-content">
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt196" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Vehicle No.</span></label>
+                </label><input id="j_idt198" name="j_idt198" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all " autocomplete="off" maxlength="10" onkeypress="return AlphaOnly(event, 'abcdefghijklmnopqrstuvwxyz0123456789');" onkeyup="makeCaps(this);" /><script id="j_idt198_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_j_idt198",{id:"j_idt198",maxlength:10});});</script>
+            </div>
+            <div class="ui-grid-col-6">
+                <div class="ui-grid-row">
+                    <div class="ui-grid-col-12 top_mar1 mar-left5"><button id="j_idt200" name="j_idt200" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt200&quot;,f:&quot;master_Layout_form&quot;,u:&quot;kataxcollection ConfirmationDialog popup ConfirmationDialogCash&quot;,onst:function(cfg){PF('masterLayoutVar').show();;},onsu:function(data,status,xhr){PF('masterLayoutVar').hide();;}});return false;" title="Click to get owner and vehicle details from Vahan 4." type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-arrowthick-1-s"></span><span class="ui-button-text ui-c">Get Details</span></button><script id="j_idt200_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt200",{id:"j_idt200"});});</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt202" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Chassis No.</span></label>
+                </label><input id="j_idt204" name="j_idt204" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-disabled " disabled="disabled" autocomplete="off" maxlength="30" onkeypress="return AlphaOnly(event, '*#.0123456789');" onkeyup="makeCaps(this);" /><script id="j_idt204_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_j_idt204",{id:"j_idt204",maxlength:30});});</script>
+            </div>   
+            <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt206" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Owner Name</span></label>
+                </label><input id="j_idt208" name="j_idt208" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-disabled " disabled="disabled" autocomplete="off" maxlength="50" onkeypress="return AlphaWithSpaceOnly(event, '. ');" onkeyup="makeCaps(this);" /><script id="j_idt208_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_j_idt208",{id:"j_idt208",maxlength:50});});</script>
+            </div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt210" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Mobile No.</span></label>
+                </label><input id="mobileno" name="mobileno" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all " autocomplete="off" maxlength="10" placeholder="SMS about payment will be sent to this number." title="SMS about payment will be sent to this number." onkeypress="return NumericOnly(event, '');" /><script id="mobileno_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_mobileno",{id:"mobileno",maxlength:10});});</script>
+            </div>               
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt213" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">From State</span></label>
+                </label><div id="j_idt215" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all "><div class="ui-helper-hidden-accessible"><select id="j_idt215_input" name="j_idt215_input" tabindex="-1" autocomplete="off" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;j_idt215&quot;,e:&quot;change&quot;,f:&quot;master_Layout_form&quot;,p:&quot;j_idt215&quot;,u:&quot;district&quot;});"><option value="-1" data-escape="true">---Select State---</option><option value="AN" data-escape="true">ANDAMAN &amp; NICOBAR</option><option value="AP" data-escape="true">ANDHRA PRADESH</option><option value="AR" data-escape="true">ARUNACHAL PRADESH</option><option value="AS" data-escape="true">ASSAM</option><option value="BR" data-escape="true">BIHAR</option><option value="CH" data-escape="true">CHANDIGARH</option><option value="CG" data-escape="true">CHHATTISGARH</option><option value="DL" data-escape="true">DELHI</option><option value="GA" data-escape="true">GOA</option><option value="GJ" data-escape="true">GUJARAT</option><option value="HR" data-escape="true">HARYANA</option><option value="HP" data-escape="true">HIMACHAL PRADESH</option><option value="JK" data-escape="true">JAMMU &amp; KASHMIR</option><option value="JH" data-escape="true">JHARKHAND</option><option value="KL" data-escape="true">KERALA</option><option value="LD" data-escape="true">LAKSHADWEEP</option><option value="MP" data-escape="true">MADHYA PRADESH</option><option value="MH" data-escape="true">MAHARASHTRA</option><option value="MN" data-escape="true">MANIPUR</option><option value="ML" data-escape="true">MEGHALAYA</option><option value="MZ" data-escape="true">MIZORAM</option><option value="NL" data-escape="true">NAGALAND</option><option value="OR" data-escape="true">ODISHA</option><option value="PY" data-escape="true">PONDICHERRY</option><option value="PB" data-escape="true">PUNJAB</option><option value="RJ" data-escape="true">RAJASTHAN</option><option value="SK" data-escape="true">SIKKIM</option><option value="TN" data-escape="true">TAMIL NADU</option><option value="TS" data-escape="true">TELANGANA</option><option value="TR" data-escape="true">TRIPURA</option><option value="DD" data-escape="true">UT of DNH and DD</option><option value="UP" data-escape="true">UTTAR PRADESH</option><option value="UK" data-escape="true">UTTRAKHAND</option><option value="WB" data-escape="true">WEST BENGAL</option></select></div><span id="j_idt215_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="j_idt215_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="j_idt215_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="j_idt215_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_j_idt215",{id:"j_idt215",appendTo:"@(body)",renderPanelContentOnClient:true,behaviors:{change:function(ext,event) {PrimeFaces.ab({s:"j_idt215",e:"change",f:"master_Layout_form",p:"j_idt215",u:"district"},ext);}}});});</script>
+            </div>
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt219" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">From District</span></label>
+                </label><div id="district" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all "><div class="ui-helper-hidden-accessible"><select id="district_input" name="district_input" tabindex="-1" autocomplete="off" aria-hidden="true"><option value="-1" data-escape="true">---Select From District---</option></select></div><span id="district_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="district_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="district_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="district_filter" name="district_filter" type="text" autocomplete="off" aria-controls="district_table" aria-label="Filter" /><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="district_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_district",{id:"district",appendTo:"@(body)",renderPanelContentOnClient:true,filter:true});});</script>
+            </div>
+        </div>
+        <div class="ui-grid-row">
+           <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt224" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Registration Date</span></label>
+                </label><span id="regn_dt" class="ui-calendar"><input id="regn_dt_input" name="regn_dt_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all " autocomplete="off" placeholder="DD-MM-YYYY " /></span><script id="regn_dt_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_regn_dt",{id:"regn_dt",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",maxDate:"01\-09\-2025 15:38"});});</script>
+            </div> 
+            <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt227" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Service Type</span></label>
+                </label><div id="cmb_service_type" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all "><div class="ui-helper-hidden-accessible"><select id="cmb_service_type_input" name="cmb_service_type_input" tabindex="-1" autocomplete="off" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;cmb_service_type&quot;,e:&quot;change&quot;,f:&quot;master_Layout_form&quot;,p:&quot;kataxcollection&quot;,u:&quot;kataxcollection&quot;});"><option value="-1" data-escape="true">---Select Service Type---</option></select></div><span id="cmb_service_type_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="cmb_service_type_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="cmb_service_type_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="cmb_service_type_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_cmb_service_type",{id:"cmb_service_type",appendTo:"@(body)",renderPanelContentOnClient:true,behaviors:{change:function(ext,event) {PrimeFaces.ab({s:"cmb_service_type",e:"change",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>     
+            </div> 
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt232" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Vehicle Type</span></label>
+                </label><div id="j_idt234" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all ui-state-disabled "><div class="ui-helper-hidden-accessible"><select id="j_idt234_input" name="j_idt234_input" tabindex="-1" autocomplete="off" aria-hidden="true" disabled="disabled" onchange="PrimeFaces.ab({s:&quot;j_idt234&quot;,e:&quot;change&quot;,f:&quot;master_Layout_form&quot;,p:&quot;kataxcollection&quot;,u:&quot;kataxcollection&quot;});"><option value="-1" data-escape="true">---Select Vehicle Type---</option><option value="1" data-escape="true">CONTRACT CARRIAGE/PASSENGER VEHICLES</option><option value="3" data-escape="true">GOODS VEHICLE</option><option value="9" data-escape="true">CONSTRUCTION EQUIPMENT VEHICLE</option></select></div><span id="j_idt234_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="j_idt234_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false" disabled="disabled">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="j_idt234_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="j_idt234_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_j_idt234",{id:"j_idt234",appendTo:"@(body)",renderPanelContentOnClient:true,behaviors:{change:function(ext,event) {PrimeFaces.ab({s:"j_idt234",e:"change",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>     
+            </div>
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt238" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Vehicle Class</span></label>
+                </label><div id="j_idt240" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all ui-state-disabled "><div class="ui-helper-hidden-accessible"><select id="j_idt240_input" name="j_idt240_input" tabindex="-1" autocomplete="off" aria-hidden="true" disabled="disabled" onchange="PrimeFaces.ab({s:&quot;j_idt240&quot;,e:&quot;change&quot;,f:&quot;master_Layout_form&quot;,p:&quot;kataxcollection&quot;,u:&quot;kataxcollection&quot;});"><option value="-1" data-escape="true">---Select Vehicle Class---</option></select></div><span id="j_idt240_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="j_idt240_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false" disabled="disabled">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="j_idt240_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="j_idt240_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_j_idt240",{id:"j_idt240",appendTo:"@(body)",renderPanelContentOnClient:true,behaviors:{change:function(ext,event) {PrimeFaces.ab({s:"j_idt240",e:"change",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script> 
+            </div> 
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt244" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Permit Type</span></label>
+                </label><div id="cmb_permit_type" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all "><div class="ui-helper-hidden-accessible"><select id="cmb_permit_type_input" name="cmb_permit_type_input" tabindex="-1" autocomplete="off" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;cmb_permit_type&quot;,e:&quot;change&quot;,f:&quot;master_Layout_form&quot;,p:&quot;kataxcollection&quot;,u:&quot;kataxcollection&quot;});"><option value="-1" data-escape="true">---Select Permit Type---</option></select></div><span id="cmb_permit_type_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="cmb_permit_type_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="cmb_permit_type_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="cmb_permit_type_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_cmb_permit_type",{id:"cmb_permit_type",appendTo:"@(body)",renderPanelContentOnClient:true,behaviors:{change:function(ext,event) {PrimeFaces.ab({s:"cmb_permit_type",e:"change",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>     
+            </div>
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt249" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Permit No.</span></label>
+                </label><input id="j_idt251" name="j_idt251" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all " autocomplete="off" maxlength="10" onkeypress="return AlphaOnly(event, '*#.0123456789');" onkeyup="makeCaps(this);" /><script id="j_idt251_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_j_idt251",{id:"j_idt251",maxlength:10});});</script>
+            </div>
+        </div>        
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="lbl_seat_cap" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Seating Capacity (Excluding Driver)</span></label>                  
+                </label><input id="txt_seat_cap" name="txt_seat_cap" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all " autocomplete="off" maxlength="2" onkeypress="return NumericOnly(event, '');" /><script id="txt_seat_cap_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_txt_seat_cap",{id:"txt_seat_cap",maxlength:2});});</script>
+            </div> 
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="lbl_sleeper_cap" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Sleeper Capacity (Excluding Driver)</span></label>
+                </label><input id="txt_sleeper_cap" name="txt_sleeper_cap" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-disabled " disabled="disabled" autocomplete="off" maxlength="2" onkeypress="return NumericOnly(event, '');" /><script id="txt_sleeper_cap_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_txt_sleeper_cap",{id:"txt_sleeper_cap",maxlength:2});});</script>
+            </div> 
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="lbl_height" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Floor Area(In Meter)</span></label>
+                </label><span id="txt_height" class="ui-inputnumber ui-widget"><input id="txt_height_input" name="txt_height_input" type="text" autocomplete="off" value="" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-disabled " disabled="disabled" autocomplete="off" inputmode="decimal" /><input id="txt_height_hinput" name="txt_height_hinput" type="hidden" autocomplete="off" value="" /></span><script id="txt_height_s" type="text/javascript">$(function(){PrimeFaces.cw("InputNumber","widget_txt_height",{id:"txt_height",disabled:true,valueToRender:"",maximumValue:"999",decimalPlaces:"2",leadingZero:"allow",showWarnings:false});});</script>                 
+            </div>
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt259" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Tax Mode</span></label>
+                </label><div id="cmb_payment_mode" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all "><div class="ui-helper-hidden-accessible"><select id="cmb_payment_mode_input" name="cmb_payment_mode_input" tabindex="-1" autocomplete="off" aria-hidden="true" onchange="PrimeFaces.ab({s:&quot;cmb_payment_mode&quot;,e:&quot;change&quot;,f:&quot;master_Layout_form&quot;,p:&quot;kataxcollection&quot;,u:&quot;kataxcollection&quot;});"><option value="-1" data-escape="true">---Select Payment Mode---</option></select></div><span id="cmb_payment_mode_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="cmb_payment_mode_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="cmb_payment_mode_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="cmb_payment_mode_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_cmb_payment_mode",{id:"cmb_payment_mode",appendTo:"@(body)",renderPanelContentOnClient:true,behaviors:{change:function(ext,event) {PrimeFaces.ab({s:"cmb_payment_mode",e:"change",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>     
+            </div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section">
+                </label>
+            </div> 
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt266" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">AITP Permit Validity</span></label>
+                </label><span id="aitp_permit_upto" class="ui-calendar"><input id="aitp_permit_upto_input" name="aitp_permit_upto_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled " autocomplete="off" placeholder="DD-MM-YYYY" disabled="disabled" /></span><script id="aitp_permit_upto_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_aitp_permit_upto",{id:"aitp_permit_upto",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",disabled:true,behaviors:{dateSelect:function(ext,event) {PrimeFaces.ab({s:"aitp_permit_upto",e:"dateSelect",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>
+            </div>   
+            <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt269" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">AITP Permit Auth Validity</span></label>
+                </label><span id="permit_auth_validity" class="ui-calendar"><input id="permit_auth_validity_input" name="permit_auth_validity_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled " autocomplete="off" placeholder="DD-MM-YYYY" disabled="disabled" /></span><script id="permit_auth_validity_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_permit_auth_validity",{id:"permit_auth_validity",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",disabled:true,behaviors:{dateSelect:function(ext,event) {PrimeFaces.ab({s:"permit_auth_validity",e:"dateSelect",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>
+            </div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt272" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Basic Permit Validity</span></label>
+                </label><span id="cal_permit_vali" class="ui-calendar"><input id="cal_permit_vali_input" name="cal_permit_vali_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled " autocomplete="off" placeholder="DD-MM-YYYY" disabled="disabled" /></span><script id="cal_permit_vali_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_cal_permit_vali",{id:"cal_permit_vali",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",disabled:true});});</script>
+            </div>   
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt275" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Fitness Validity</span></label>
+                </label><span id="cal_fitness_vali" class="ui-calendar"><input id="cal_fitness_vali_input" name="cal_fitness_vali_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled " autocomplete="off" placeholder="DD-MM-YYYY" disabled="disabled" /></span><script id="cal_fitness_vali_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_cal_fitness_vali",{id:"cal_fitness_vali",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",disabled:true});});</script>
+            </div>
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section "><label id="j_idt278" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Insurance Validity</span></label>
+                </label><span id="cal_insurance_vali" class="ui-calendar"><input id="cal_insurance_vali_input" name="cal_insurance_vali_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled " autocomplete="off" placeholder="DD-MM-YYYY" disabled="disabled" /></span><script id="cal_insurance_vali_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_cal_insurance_vali",{id:"cal_insurance_vali",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",disabled:true});});</script>
+            </div>   
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt281" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Tax Validity</span></label>
+                </label><span id="cal_tax_vali" class="ui-calendar"><input id="cal_tax_vali_input" name="cal_tax_vali_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled " autocomplete="off" placeholder="DD-MM-YYYY" disabled="disabled" /></span><script id="cal_tax_vali_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_cal_tax_vali",{id:"cal_tax_vali",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",disabled:true});});</script>
+            </div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt284" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Border/Barrier Name</span></label>
+                </label><div id="j_idt286" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all "><div class="ui-helper-hidden-accessible"><select id="j_idt286_input" name="j_idt286_input" tabindex="-1" autocomplete="off" aria-hidden="true"><option value="-1" data-escape="true">---Select Border/Barrier---</option><option value="12" data-escape="true">ARTO,ALAND</option><option value="8" data-escape="true">ARTO,ANMOD</option><option value="1" data-escape="true">ARTO,ATTIBELE</option><option value="3" data-escape="true">ARTO,BAGEPALLI</option><option value="11" data-escape="true">ARTO,DHOLKHED</option><option value="6" data-escape="true">ARTO,GUNDLUPET</option><option value="14" data-escape="true">ARTO,HAGARI</option><option value="13" data-escape="true">ARTO,HUMNABAD</option><option value="10" data-escape="true">ARTO,KAGAWADA</option><option value="9" data-escape="true">ARTO,KOGNALLI</option><option value="2" data-escape="true">ARTO,NANGLI</option><option value="7" data-escape="true">ARTO,PUNAJANUR</option><option value="15" data-escape="true">ARTO,TALAPADI</option><option value="5" data-escape="true">GOWRIBIDANUR C.P.</option><option value="4" data-escape="true">RAYALPADU</option></select></div><span id="j_idt286_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" tabindex="0" aria-controls="j_idt286_panel" role="combobox" aria-haspopup="listbox" aria-expanded="false">&nbsp;</span><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div><div id="j_idt286_panel" class="ui-selectonemenu-panel ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow ui-input-overlay" tabindex="-1"><div class="ui-selectonemenu-items-wrapper" style="max-height:200px"></div></div></div><script id="j_idt286_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneMenu","widget_j_idt286",{id:"j_idt286",appendTo:"@(body)",renderPanelContentOnClient:true});});</script>     
+            </div>
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt290" class="ui-outputlabel ui-widget field-label-mandate"></label>
+                </label><input id="purposeofjourney" name="purposeofjourney" type="text" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all " autocomplete="off" onkeypress="return AlphaWithSpaceOnly(event, '. ');" onkeyup="makeCaps(this);" /><script id="purposeofjourney_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_purposeofjourney",{id:"purposeofjourney"});});</script>      
+            </div>
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt293" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Tax From Date</span></label>
+                </label><span id="cal_tax_from" class="ui-calendar"><input id="cal_tax_from_input" name="cal_tax_from_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all " autocomplete="off" placeholder="DD-MM-YYYY " /></span><script id="cal_tax_from_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_cal_tax_from",{id:"cal_tax_from",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",minDate:"01\-09\-2025 15:38",behaviors:{dateSelect:function(ext,event) {PrimeFaces.ab({s:"cal_tax_from",e:"dateSelect",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>
+            </div>   
+            <div class="ui-grid-col-3">
+                <label class="field-label resp-label-section"><label id="j_idt296" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Tax Upto Date</span></label>
+                </label><span id="cal_tax_to" class="ui-calendar"><input id="cal_tax_to_input" name="cal_tax_to_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled " autocomplete="off" placeholder="DD-MM-YYYY " disabled="disabled" /></span><script id="cal_tax_to_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_cal_tax_to",{id:"cal_tax_to",popup:true,locale:"en_US",dateFormat:"dd\-mm\-yy",disabled:true,behaviors:{dateSelect:function(ext,event) {PrimeFaces.ab({s:"cal_tax_to",e:"dateSelect",f:"master_Layout_form",p:"kataxcollection",u:"kataxcollection"},ext);}}});});</script>
+            </div>
+        </div><br />
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-12"><div id="tax_table" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="tax_table_head"><tr><th id="tax_table:j_idt299" class="ui-state-default" aria-label="Sl. No." scope="col" style="width: 40px;"><span class="ui-column-title">Sl. No.</span></th><th id="tax_table:j_idt301" class="ui-state-default" aria-label="Particulars" scope="col"><span class="ui-column-title">Particulars</span></th><th id="tax_table:j_idt303" class="ui-state-default" aria-label="Tax From" scope="col"><span class="ui-column-title">Tax From</span></th><th id="tax_table:j_idt305" class="ui-state-default" aria-label="Tax Upto" scope="col"><span class="ui-column-title">Tax Upto</span></th><th id="tax_table:j_idt307" class="ui-state-default" aria-label="Amount" scope="col"><span class="ui-column-title">Amount</span></th></tr></thead><tbody id="tax_table_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="5">No records found.</td></tr></tbody></table></div></div><script id="tax_table_s" type="text/javascript">$(function(){PrimeFaces.cw("DataTable","widget_tax_table",{id:"tax_table",groupColumnIndexes:[],disableContextMenuIfEmpty:false});});</script>
+            </div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-6">
+                <label class="field-label resp-label-section"><label id="j_idt310" class="ui-outputlabel ui-widget field-label-mandate"><span class="ui-outputlabel-label">Total Amount</span></label>
+                </label><input id="txt_tax_amount" name="txt_tax_amount" type="text" style="font-size: 15pt;font-weight: bold;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-disabled " disabled="disabled" /><script id="txt_tax_amount_s" type="text/javascript">$(function(){PrimeFaces.cw("InputText","widget_txt_tax_amount",{id:"txt_tax_amount"});});</script>
+            </div>   
+            <div class="ui-grid-col-6">
+                <div class="ui-grid-row">
+                    <div class="ui-grid-col-12 top_mar1 mar-left5"><button id="j_idt313" name="j_idt313" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt313&quot;,f:&quot;master_Layout_form&quot;,u:&quot;kataxcollection popup ConfirmationDialog&quot;,onst:function(cfg){PF('masterLayoutVar').show();;},onco:function(xhr,status,args,data){PF('masterLayoutVar').hide();;}});return false;" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-calculator"></span><span class="ui-button-text ui-c">Calculate Tax</span></button><script id="j_idt313_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt313",{id:"j_idt313"});});</script><button id="j_idt316" name="j_idt316" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.bcn(this,event,[function(event){PF('ConfirmationDLG').show();},function(event){PrimeFaces.ab({s:&quot;j_idt316&quot;,f:&quot;master_Layout_form&quot;});return false;}]);" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-seek-next"></span><span class="ui-button-text ui-c">Pay Tax</span></button><script id="j_idt316_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt316",{id:"j_idt316"});});</script><button id="j_idt317" name="j_idt317" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt317&quot;,f:&quot;master_Layout_form&quot;,u:&quot;kataxcollection ConfirmationDialog ConfirmationDialogCash&quot;,onst:function(cfg){PF('masterLayoutVar').show();;},onsu:function(data,status,xhr){PF('masterLayoutVar').hide();;}});return false;" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-refresh"></span><span class="ui-button-text ui-c">Reset</span></button><script id="j_idt317_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt317",{id:"j_idt317"});});</script>
+                    </div>
+                </div>
+            </div>
+        </div></div></div><script id="kataxcollection_s" type="text/javascript">$(function(){PrimeFaces.cw("Panel","widget_kataxcollection",{id:"kataxcollection"});});</script><div id="popup" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container center-position" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="popup_title" class="ui-dialog-title"></span></div><div class="ui-dialog-content ui-widget-content" id="popup_content"><div id="j_idt319" class="ui-messages ui-widget" aria-live="polite"></div><script id="j_idt319_s" type="text/javascript">$(function(){PrimeFaces.cw("Messages","widget_j_idt319",{id:"j_idt319"});});</script><button id="j_idt320" name="j_idt320" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.bcn(this,event,[function(event){mojarra.ab('j_idt320',event,'click',0,'kataxcollection popup')},function(event){PrimeFaces.ab({s:&quot;j_idt320&quot;,f:&quot;master_Layout_form&quot;,onco:function(xhr,status,args,data){PF('dlg1').hide();;}});return false;}]);" type="submit"><span class="ui-button-text ui-c">Ok</span></button><script id="j_idt320_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt320",{id:"j_idt320",behaviors:{click:function(ext,event) {mojarra.ab('j_idt320',event,'click',0,'kataxcollection popup',{'CLIENT_BEHAVIOR_RENDERING_MODE':'UNOBSTRUSIVE'})}}});});</script></div></div><script id="popup_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","dlg1",{id:"popup",draggable:false,modal:true});});</script><div id="ConfirmationDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="ConfirmationDialog_title" class="ui-dialog-title">Confirmation Message...</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="ConfirmationDialog_content"><table class="datatable-panel-100">
+<tbody>
+<tr>
+<td><span class="small-text-font-bold">Registration No</span></td>
+<td><span class="small-text-font-bold">:</span></td>
+<td><span class="small-text-font-bold"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Owner Name</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Chassis Number</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Tax From Date</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Tax To Date</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font-bold">Amount</span></td>
+<td><span class="small-text-font-bold">:</span></td>
+<td><span class="small-text-font-bold">/-</span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Payment Mode</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font">ONLINE</span></td>
+</tr>
+</tbody>
+</table>
+
+        <div class="ui-grid-row top-space bottom-space">
+            <div class="ui-grid-col-12 center-position"><button id="j_idt344" name="j_idt344" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-check"></span><span class="ui-button-text ui-c">Confirm</span></button><script id="j_idt344_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt344",{id:"j_idt344"});});</script><button id="j_idt345" name="j_idt345" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.bcn(this,event,[function(event){PF('ConfirmationDLG').hide();},function(event){PrimeFaces.ab({s:&quot;j_idt345&quot;,f:&quot;master_Layout_form&quot;});return false;}]);" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-close"></span><span class="ui-button-text ui-c">Cancel</span></button><script id="j_idt345_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt345",{id:"j_idt345"});});</script>
+            </div>
+        </div></div></div><script id="ConfirmationDialog_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","ConfirmationDLG",{id:"ConfirmationDialog",resizable:false,modal:true,width:"550",height:"260"});});</script><div id="ConfirmationDialogCash" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="ConfirmationDialogCash_title" class="ui-dialog-title">Confirmation Message...</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="ConfirmationDialogCash_content"><table id="DialogCash" class="datatable-panel-100">
+<tbody>
+<tr>
+<td><span class="small-text-font-bold">Registration No</span></td>
+<td><span class="small-text-font-bold">:</span></td>
+<td><span class="small-text-font-bold"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Owner Name</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Chassis Number</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Tax From Date</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+<tr>
+<td><span class="small-text-font">Tax To Date</span></td>
+<td><span class="small-text-font">:</span></td>
+<td><span class="small-text-font"></span></td>
+</tr>
+</tbody>
+</table>
+
+        <div class="ui-grid-row top-space bottom-space">
+            <div class="ui-grid-col-12 center-position"><button id="j_idt363" name="j_idt363" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt363&quot;,f:&quot;master_Layout_form&quot;,u:&quot;kataxcollection ConfirmationDialogCashForward&quot;,onst:function(cfg){PF('masterLayoutVar').show();;},onsu:function(data,status,xhr){PF('masterLayoutVar').hide();PF('ConfirmationDLGCash').hide();;}});return false;" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-check"></span><span class="ui-button-text ui-c">Confirm</span></button><script id="j_idt363_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt363",{id:"j_idt363"});});</script><button id="j_idt364" name="j_idt364" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.bcn(this,event,[function(event){PF('ConfirmationDLGCash').hide();},function(event){PrimeFaces.ab({s:&quot;j_idt364&quot;,f:&quot;master_Layout_form&quot;});return false;}]);" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-close"></span><span class="ui-button-text ui-c">Cancel</span></button><script id="j_idt364_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt364",{id:"j_idt364"});});</script>
+            </div>
+        </div></div></div><script id="ConfirmationDialogCash_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","ConfirmationDLGCash",{id:"ConfirmationDialogCash",resizable:false,modal:true,width:"550",height:"200"});});</script><div id="ConfirmationDialogCashUpdate" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="ConfirmationDialogCashUpdate_title" class="ui-dialog-title">Message...</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="ConfirmationDialogCashUpdate_content">
+        <center>
+            <h3 style="color: #FF0000;font-family: Arial, Helvetica, sans-serif !important;">Application No. :  updated successfully.</h3>
+        </center>
+        <div class="ui-grid-row top-space bottom-space">
+            <div class="ui-grid-col-12 center-position"><button id="j_idt367" name="j_idt367" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt367&quot;,f:&quot;master_Layout_form&quot;,onst:function(cfg){PF('masterLayoutVar').show();;},onco:function(xhr,status,args,data){PF('masterLayoutVar').hide();PF('ConfirmationDLGCashForward').hide();;}});return false;" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-check"></span><span class="ui-button-text ui-c">Ok</span></button><script id="j_idt367_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt367",{id:"j_idt367"});});</script>
+            </div>
+        </div></div></div><script id="ConfirmationDialogCashUpdate_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","ConfirmationDLGCashUpdate",{id:"ConfirmationDialogCashUpdate",resizable:false,modal:true});});</script><div id="ConfirmationDialogCashForward" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="display:none"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="ConfirmationDialogCashForward_title" class="ui-dialog-title">Confirmation Message...</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="ConfirmationDialogCashForward_content">
+        <center>
+            <h3 style="color: #FF0000;font-family: Arial, Helvetica, sans-serif !important;">Entry done successfully and Application No. : </h3><br />
+            <h3>Do you want to submit your new file.</h3><br />
+            <h3>Click <font color="#FF0000;">'Yes'</font> to stay at the same page and <font color="#FF0000;">'No'</font> to go to the Home page.</h3>
+        </center>
+        <div class="ui-grid-row top-space bottom-space">
+            <div class="ui-grid-col-12 center-position"><button id="j_idt370" name="j_idt370" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt370&quot;,f:&quot;master_Layout_form&quot;,onst:function(cfg){PF('masterLayoutVar').show();;},onsu:function(data,status,xhr){PF('masterLayoutVar').hide();PF('ConfirmationDLGCashForward').hide();;}});return false;" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-check"></span><span class="ui-button-text ui-c">Yes</span></button><script id="j_idt370_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt370",{id:"j_idt370"});});</script><button id="j_idt371" name="j_idt371" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;j_idt371&quot;,f:&quot;master_Layout_form&quot;,onst:function(cfg){PF('masterLayoutVar').show();;},onsu:function(data,status,xhr){PF('masterLayoutVar').hide();PF('ConfirmationDLGCashForward').hide();;}});return false;" type="submit"><span class="ui-button-icon-left ui-icon ui-c ui-icon-close"></span><span class="ui-button-text ui-c">No</span></button><script id="j_idt371_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt371",{id:"j_idt371"});});</script>
+            </div>
+        </div></div></div><script id="ConfirmationDialogCashForward_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","ConfirmationDLGCashForward",{id:"ConfirmationDialogCashForward",resizable:false,modal:true,closeOnEscape:true});});</script><div id="j_idt373" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="j_idt373_title" class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" id="j_idt373_content"><span class="ui-icon ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message"></span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="j_idt374" name="j_idt374" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-confirmdialog-yes" type="button"><span class="ui-button-icon-left ui-icon ui-c pi pi-check"></span><span class="ui-button-text ui-c">Yes</span></button><script id="j_idt374_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt374",{id:"j_idt374"});});</script><button id="j_idt375" name="j_idt375" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-confirmdialog-no" type="button"><span class="ui-button-icon-left ui-icon ui-c pi pi-times"></span><span class="ui-button-text ui-c">No</span></button><script id="j_idt375_s" type="text/javascript">$(function(){PrimeFaces.cw("CommandButton","widget_j_idt375",{id:"j_idt375"});});</script></div></div><script id="j_idt373_s" type="text/javascript">$(function(){PrimeFaces.cw("ConfirmDialog","widget_j_idt373",{id:"j_idt373",showEffect:"fade",hideEffect:"fade",global:true});});</script>
+
+</html>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div><div id="j_idt44" class="ui-blockui-content ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"><img id="j_idt45" src="/checkpost/faces/javax.faces.resource/ajax_loader_blue.gif?ln=images" alt="" /></div><script id="j_idt44_s" type="text/javascript">$(function(){PrimeFaces.cw("BlockUI","masterLayoutVar",{id:"j_idt44",block:"masterlaoyoutbody"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="4711135870585782609:7437811443507717428" autocomplete="off" />
+</form></body>
+</html>

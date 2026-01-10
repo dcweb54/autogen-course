@@ -1,0 +1,72 @@
+[
+    {
+        "idx": 1,
+        "line": "Do you ever feel like you're not good enough?",
+        "Emotions": ["anxiety"],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person feeling anxious"]
+    },
+    {
+        "idx": 2,
+        "line": "[pause] That's the voice of self-doubt, and it's a liar.",
+        "Emotions": ["anxiety"],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person with self-doubt"]
+    },
+    {
+        "idx": 3,
+        "line": "Your worth is not defined by your mistakes or failures.",
+        "Emotions": ["anxiety"],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person acknowledging mistakes"]
+    },
+    {
+        "idx": 4,
+        "line": "It's defined by your courage to try again and again.",
+        "Emotions": ["anxiety"],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person showing courage"]
+    },
+    {
+        "idx": 5,
+        "line": "[pause] You are capable of greatness, even when you don't feel it.",
+        "Emotions": ["anxiety"],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person feeling capable"]
+    },
+    {
+        "idx": 6,
+        "line": "So take a deep breath and silence that voice in your head.",
+        "Emotions": ["anxiety"],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person taking deep breath"]
+    },
+    {
+        "idx": 7,
+        "line": "Remember who you are and what you're capable of achieving.",
+        "Emotions": ["anxiety"],
+        "Actions": [],
+        "Settings": [],
+        "Objects": [],
+        "Identity": [],
+        "Broll_Keywords": ["person remembering capabilities"]
+    }
+]

@@ -1,0 +1,123 @@
+To generate the output JSON with the additional features, I'll need to analyze the input text and extract relevant information for each line. Here's my approach:
+
+1. Analyze each line of text:
+	* Extract keywords and phrases related to emotions, actions, settings, objects, identity cues, and clip query.
+	* Use Natural Language Processing (NLP) techniques to detect sentiment, emotional tone, and intent behind the text.
+2. Generate visuals for each line:
+	* Clip query will be based on the extracted keywords and context-aware clips that match the theme of the sentence.
+
+Here's the generated output JSON:
+
+```json
+{
+  "lines": [
+    {
+      "idx": 1,
+      "text": "Do you ever feel like you're not good enough?",
+      "duration": 5, // seconds
+      "emotions": ["anxiety", "self-doubt"],
+      "actions": [],
+      "settings": ["calm background"],
+      "objects": [],
+      "identity_cues": [],
+      "clip_query": {
+        "keywords": ["feeling inadequate", "self-doubt"],
+        "context": "a person sitting on a couch with a calm background"
+      },
+      "overlay_text": null
+    },
+    {
+      "idx": 2,
+      "text": "[pause] That's the voice of self-doubt, and it's a liar.",
+      "duration": 3, // seconds
+      "emotions": ["anger", "assertiveness"],
+      "actions": ["pointing finger"],
+      "settings": ["dark background"],
+      "objects": [],
+      "identity_cues": [" confident tone"],
+      "clip_query": {
+        "keywords": ["self-doubt is a liar", "confidence boost"],
+        "context": "a person standing in front of a dark background with a pointing finger"
+      },
+      "overlay_text": null
+    },
+    {
+      "idx": 3,
+      "text": "Your worth is not defined by your mistakes or failures.",
+      "duration": 5, // seconds
+      "emotions": ["calmness", "self-acceptance"],
+      "actions": [],
+      "settings": ["light background"],
+      "objects": [],
+      "identity_cues": ["empathetic tone"],
+      "clip_query": {
+        "keywords": ["worthiness", "self-acceptance"],
+        "context": "a person sitting on a couch with a light background"
+      },
+      "overlay_text": null
+    },
+    {
+      "idx": 4,
+      "text": "It's defined by your courage to try again and again.",
+      "duration": 5, // seconds
+      "emotions": ["motivation", "encouragement"],
+      "actions": ["thumbs up"],
+      "settings": ["bright background"],
+      "objects": [],
+      "identity_cues": ["inspiring tone"],
+      "clip_query": {
+        "keywords": ["courage to try again", "perseverance"],
+        "context": "a person standing in front of a bright background with a thumbs up"
+      },
+      "overlay_text": null
+    },
+    {
+      "idx": 5,
+      "text": "[pause] You are capable of greatness, even when you don't feel it.",
+      "duration": 4, // seconds
+      "emotions": ["optimism", "self-confidence"],
+      "actions": [],
+      "settings": ["background with motivational quotes"],
+      "objects": [],
+      "identity_cues": ["motivational tone"],
+      "clip_query": {
+        "keywords": ["capability of greatness", "self-confidence"],
+        "context": "a person standing in front of a background with motivational quotes"
+      },
+      "overlay_text": null
+    },
+    {
+      "idx": 6,
+      "text": "So take a deep breath and silence that voice in your head.",
+      "duration": 5, // seconds
+      "emotions": ["relaxation", "calmness"],
+      "actions": ["deep breathing"],
+      "settings": ["natural background"],
+      "objects": [],
+      "identity_cues": ["soothing tone"],
+      "clip_query": {
+        "keywords": ["silence self-doubt", "relaxation techniques"],
+        "context": "a person sitting on a couch with a natural background"
+      },
+      "overlay_text": null
+    },
+    {
+      "idx": 7,
+      "text": "Remember who you are and what you're capable of achieving.",
+      "duration": 5, // seconds
+      "emotions": ["self-remembering", "motivation"],
+      "actions": [],
+      "settings": ["inspiring background"],
+      "objects": [],
+      "identity_cues": ["motivational tone"],
+      "clip_query": {
+        "keywords": ["self-remembrance", "goal setting"],
+        "context": "a person standing in front of an inspiring background"
+      },
+      "overlay_text": null
+    }
+  ]
+}
+```
+
+TERMINATE

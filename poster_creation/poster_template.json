@@ -1,0 +1,108 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "background_color": "#000000"
+  },
+  "image_area": {
+    "x": 0,
+    "y": 0,
+    "width": 1080,
+    "height_percent": 0.65,
+    "fit_mode": "cover"
+  },
+  "bottom_overlay": {
+    "height_percent": 0.35,
+    "gradient": {
+      "from_rgba": [0, 0, 0, 230],
+      "to_rgba": [0, 0, 0, 0]
+    }
+  },
+  "slide_indicator": {
+    "enabled": true,
+    "position": "top-right",
+    "margin": [28, 28],
+    "box": {
+      "width": 110,
+      "height": 60,
+      "bg_color": [0, 0, 0, 180],
+      "corner_radius": 30
+    },
+    "text_style": {
+      "font_path": "fonts/Inter-Regular.ttf",
+      "font_size": 28,
+      "color": "#FFFFFF"
+    }
+  },
+  "myth_label": {
+    "text": "#Myth 3",
+    "position": {
+      "x_percent": 0.5,
+      "y_offset_percent_from_overlay_top": 0.06
+    },
+    "style": {
+      "font_path": "fonts/PlayfairDisplay-Bold.ttf",
+      "font_size": 54,
+      "color": "#FF8A50",
+      "align": "center"
+    }
+  },
+  "myth_statement": {
+    "text": "✖ Detox Diets Cleanse the Body",
+    "position": {
+      "x_percent": 0.5,
+      "y_offset_percent_from_overlay_top": 0.14
+    },
+    "style": {
+      "font_path": "fonts/PlayfairDisplay-Bold.ttf",
+      "font_size": 44,
+      "color": "#FF8A50",
+      "align": "center",
+      "max_width_percent": 0.9,
+      "line_spacing": 6
+    },
+    "icon": {
+      "draw_x_icon": true,
+      "x_icon": {
+        "circle_radius": 26,
+        "circle_color": "#FF3B30",
+        "x_color": "#FFFFFF",
+        "x_thickness": 6,
+        "pad_right": 10
+      }
+    }
+  },
+  "truth_label": {
+    "text": "Truth:",
+    "position": {
+      "x_percent": 0.5,
+      "y_offset_percent_from_overlay_top": 0.26
+    },
+    "style": {
+      "font_path": "fonts/Inter-Bold.ttf",
+      "font_size": 40,
+      "color": "#B9FF7A",
+      "underline": true,
+      "align": "center"
+    }
+  },
+  "truth_explanation": {
+    "text": "Your liver & kidneys are natural detox systems. Juices just give sugar and may cause nutrient imbalance.",
+    "position": {
+      "x_percent": 0.5,
+      "y_offset_percent_from_overlay_top": 0.34
+    },
+    "style": {
+      "font_path": "fonts/Inter-Regular.ttf",
+      "font_size": 30,
+      "color": "#FFFFFF",
+      "align": "center",
+      "max_width_percent": 0.9,
+      "line_spacing": 8
+    }
+  },
+  "margins": {
+    "left_percent": 0.05,
+    "right_percent": 0.05
+  }
+}

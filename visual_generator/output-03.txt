@@ -1,0 +1,83 @@
+{
+  "timeline": [
+    {
+      "idx": 1,
+      "line": "Do you ever feel like you're not good enough?",
+      "emotions": ["self-doubt", "anxiety"],
+      "actions": ["looking down", "sighing"],
+      "settings": ["empty room", "dark background"],
+      "objects/props": ["mirror", "empty chair"],
+      "identity cues": ["young adult", "woman of color"],
+      "clip_query": "self doubt and anxiety in young woman",
+      "overlay_text": "**Not Good Enough**"
+    },
+    {
+      "idx": 2,
+      "line": "[pause] That's the voice of self-doubt, and it's a liar.",
+      "emotions": ["anger", "frustration"],
+      "actions": ["pointing at self", "shaking head"],
+      "settings": ["empty room", "dark background"],
+      "objects/props": ["mirror", "empty chair"],
+      "identity cues": ["young adult", "woman of color"],
+      "clip_query": "self doubt liar voice in young woman",
+      "overlay_text": "**Liar**"
+    },
+    {
+      "idx": 3,
+      "line": "Your worth is not defined by your mistakes or failures.",
+      "emotions": ["empowerment", "calmness"],
+      "actions": ["smiling", "nodding"],
+      "settings": ["beautiful landscape", "sunny background"],
+      "objects/props": ["flowers", "book"],
+      "identity cues": ["young adult", "man of color"],
+      "clip_query": "worth not defined by mistakes or failures",
+      "overlay_text": "**Worth**"
+    },
+    {
+      "idx": 4,
+      "line": "It's defined by your courage to try again and again.",
+      "emotions": ["determination", "hope"],
+      "actions": ["standing up", "raising hands"],
+      "settings": ["beautiful landscape", "sunny background"],
+      "objects/props": ["flowers", "book"],
+      "identity cues": ["young adult", "woman of color"],
+      "clip_query": "courage to try again and again",
+      "overlay_text": "**Courage**"
+    },
+    {
+      "idx": 5,
+      "line": "[pause] You are capable of greatness, even when you don't feel it.",
+      "emotions": ["excitement", "encouragement"],
+      "actions": ["raising hands", "smiling"],
+      "settings": ["beautiful landscape", "sunny background"],
+      "objects/props": ["flowers", "book"],
+      "identity cues": ["young adult", "man of color"],
+      "clip_query": "capable of greatness even when you don't feel it",
+      "overlay_text": "**Greatness**"
+    },
+    {
+      "idx": 6,
+      "line": "So take a deep breath and silence that voice in your head.",
+      "emotions": ["relaxation", "calmness"],
+      "actions": ["breathing deeply", "closin eyes"],
+      "settings": ["peaceful nature", "sunny background"],
+      "objects/props": ["flowers", "tree"],
+      "identity cues": ["young adult", "woman of color"],
+      "clip_query": "silence voice in head and relax",
+      "overlay_text": "**Breathe**"
+    },
+    {
+      "idx": 7,
+      "line": "Remember who you are and what you're capable of achieving.",
+      "emotions": ["confidence", "motivation"],
+      "actions": ["standing up", "raising hands"],
+      "settings": ["beautiful landscape", "sunny background"],
+      "objects/props": ["flowers", "book"],
+      "identity cues": ["young adult", "man of color"],
+      "clip_query": "remember who you are and what you can achieve",
+      "overlay_text": "**Remember**"
+    }
+  ]
+}
+
+   
